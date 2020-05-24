@@ -7,6 +7,7 @@ import com.reinaldo.pontointeligente.api.entities.Lancamento;
 import com.reinaldo.pontointeligente.api.enums.PerfilEnum;
 import com.reinaldo.pontointeligente.api.enums.TipoEnum;
 import com.reinaldo.pontointeligente.api.utils.PasswordUtils;
+import com.reinaldo.pontointeligente.api.utils.PasswordUtilsTest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

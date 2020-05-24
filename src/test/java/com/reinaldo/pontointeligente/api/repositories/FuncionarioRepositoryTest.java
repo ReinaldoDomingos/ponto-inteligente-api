@@ -7,10 +7,11 @@ import com.reinaldo.pontointeligente.api.enums.PerfilEnum;
 import com.reinaldo.pontointeligente.api.utils.PasswordUtils;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
-import org.junit.jupiter.api.Test;
+
 import java.security.NoSuchAlgorithmException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

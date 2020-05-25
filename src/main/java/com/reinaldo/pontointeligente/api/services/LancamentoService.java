@@ -1,11 +1,11 @@
 package com.reinaldo.pontointeligente.api.services;
 
-import com.reinaldo.pontointeligente.api.entities.Funcionario;
-import com.reinaldo.pontointeligente.api.entities.Lancamento;
+import java.util.Optional;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-import java.util.Optional;
+import com.reinaldo.pontointeligente.api.entities.Lancamento;
 
 public interface LancamentoService {
     /**
@@ -15,7 +15,7 @@ public interface LancamentoService {
      * @param pageRequest
      * @return Page<Lancamento>
      */
-    Page<Lancamento> buscarPorFunionarioId(Long funcionarioId, PageRequest pageRequest);
+    Page<Lancamento> buscarPorFuncionarioId(Long funcionarioId, PageRequest pageRequest);
 
     /**
      * Retorna um lançamento por ID.

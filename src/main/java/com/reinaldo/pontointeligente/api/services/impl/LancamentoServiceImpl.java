@@ -21,7 +21,7 @@ public class LancamentoServiceImpl implements LancamentoService {
     private LancamentoRepository lancamentoRepository;
 
     @Override
-    public Page<Lancamento> buscarPorFunionarioId(Long funcionarioId, PageRequest pageRequest) {
+    public Page<Lancamento> buscarPorFuncionarioId(Long funcionarioId, PageRequest pageRequest) {
         log.info("\nBuscando lancamentos para o funcionario ID {}\n", funcionarioId);
         return this.lancamentoRepository.findByFuncionarioId(funcionarioId, pageRequest);
     }

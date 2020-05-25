@@ -1,11 +1,10 @@
 package com.reinaldo.pontointeligente.api.services;
 
-import java.util.Optional;
-
+import com.reinaldo.pontointeligente.api.entities.Lancamento;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-import com.reinaldo.pontointeligente.api.entities.Lancamento;
+import java.util.Optional;
 
 public interface LancamentoService {
     /**

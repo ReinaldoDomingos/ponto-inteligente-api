@@ -26,7 +26,7 @@ CREATE TABLE `lancamento` (
 `data` datetime NOT NULL,
 `data_atualizacao` datetime NOT NULL,
 `data_criacao` datetime NOT NULL,
-`decricao` varchar(255) DEFAULT NULL,
+`descricao` varchar(255) DEFAULT NULL,
 `localizacao` varchar(255) DEFAULT NULL,
 `tipo` varchar(255) NOT NULL,
 `funcionario_id` bigint(20) DEFAULT NULL

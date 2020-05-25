@@ -38,8 +38,8 @@ public class CadastroPJController {
      * Cadastra uma pessoa juridica no sistema.
      *
      * @param result
-     * @param ResponseEntity<Response<CadastroPJDto>>
      * @throws NoSuchAlgorithmException
+     * @return ResponseEntity<Response < CadastroPJDto>>
      */
     @PostMapping
     public ResponseEntity<Response<CadastroPJDto>> cadastrar(@Valid @RequestBody CadastroPJDto cadastroPJDto

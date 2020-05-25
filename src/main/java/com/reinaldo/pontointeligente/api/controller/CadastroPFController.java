@@ -41,8 +41,8 @@ public class CadastroPFController {
      * Cadastra uma funcionário pessoa física no sistema.
      *
      * @param result
-     * @param ResponseEntity<Response<CadastroPFDto>>
      * @throws NoSuchAlgorithmException
+     * @return  ResponseEntity<Response<CadastroPFDto>>
      */
     @PostMapping
     public ResponseEntity<Response<CadastroPFDto>> cadastrar(@Valid @RequestBody CadastroPFDto cadastroPFDto

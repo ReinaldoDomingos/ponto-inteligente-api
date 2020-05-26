@@ -1,4 +1,4 @@
-package com.reinaldo.pontointeligente.api.controller;
+package com.reinaldo.pontointeligente.api.controllers;
 
 import com.reinaldo.pontointeligente.api.dtos.FuncionarioDto;
 import com.reinaldo.pontointeligente.api.entities.Funcionario;

@@ -1,25 +1,15 @@
-package com.reinaldo.pontointeligente.api.controller;
+package com.reinaldo.pontointeligente.api.controllers;
 
-import com.reinaldo.pontointeligente.api.dtos.CadastroPFDto;
 import com.reinaldo.pontointeligente.api.dtos.EmpresaDto;
 import com.reinaldo.pontointeligente.api.entities.Empresa;
-import com.reinaldo.pontointeligente.api.entities.Funcionario;
-import com.reinaldo.pontointeligente.api.enums.PerfilEnum;
 import com.reinaldo.pontointeligente.api.response.Response;
 import com.reinaldo.pontointeligente.api.services.EmpresaService;
-import com.reinaldo.pontointeligente.api.services.FuncionarioService;
-import com.reinaldo.pontointeligente.api.utils.PasswordUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-import java.math.BigDecimal;
-import java.security.NoSuchAlgorithmException;
 import java.util.Optional;
 
 @RestController

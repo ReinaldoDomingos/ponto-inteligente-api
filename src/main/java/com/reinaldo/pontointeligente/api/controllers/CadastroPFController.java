@@ -1,7 +1,6 @@
-package com.reinaldo.pontointeligente.api.controller;
+package com.reinaldo.pontointeligente.api.controllers;
 
 import com.reinaldo.pontointeligente.api.dtos.CadastroPFDto;
-import com.reinaldo.pontointeligente.api.dtos.CadastroPJDto;
 import com.reinaldo.pontointeligente.api.entities.Empresa;
 import com.reinaldo.pontointeligente.api.entities.Funcionario;
 import com.reinaldo.pontointeligente.api.enums.PerfilEnum;

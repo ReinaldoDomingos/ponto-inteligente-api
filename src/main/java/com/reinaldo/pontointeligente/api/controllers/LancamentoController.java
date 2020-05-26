@@ -1,4 +1,4 @@
-package com.reinaldo.pontointeligente.api.controller;
+package com.reinaldo.pontointeligente.api.controllers;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
